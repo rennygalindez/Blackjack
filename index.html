@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es|">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" defer src="./assets/js/app.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Blackjack</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Blackjack</h1>
+    </header>
+
+    <div class="col text-center">
+      <button id="newGameButton" class="btn btn-primary btn-sm">Nuevo juego</button>
+      <button id="getOneCard" class="btn btn-primary btn-sm">
+        pedir carta
+      </button>
+      <button id="stopButton"class="btn btn-danger btn-sm">Detener</button>
+    </div>
+
+    <div class="container mt-1">
+      <div class="player" id="player">
+        <h2>Jugador 1 <span id="player-score"></span></h2>
+      </div>
+      <div class="player" id="CPU">
+        <h2>CPU <span id="CPU-score"></span></h2>
+      </div>
+    </div>
+  </body>
+</html>
